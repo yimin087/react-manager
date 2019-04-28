@@ -1,3 +1,5 @@
+@import './default.less';
+
 .admin {
   display: flex;
 
@@ -10,6 +12,13 @@
   &__main {
     flex: 1;
     height: calc(100vh);
+    background-color: @colorL;
+    overflow: auto;
+  }
+
+  &__content{
+    position: relative;
+    padding: 20px;
   }
 
 }
